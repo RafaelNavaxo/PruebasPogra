@@ -9,12 +9,12 @@ display: block;
 body {
 text-align: center; 
 }
-#agrupar {
+#contenido {
 width: 936px;
 margin: 15px auto;
 text-align: left;
 }
-#cabecera {
+#contenido3 {
 background: #87CEEB;
 text-align: center;
 border: 1px solid #2EFEF7;
