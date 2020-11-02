@@ -1,0 +1,24 @@
+H1 { color: #FF0000 ; }
+header{
+    height: 100px;
+    width: 1000px;
+    background-color: aqua;
+}
+nav{
+    background-color:#000; 
+    height: 200px;
+    width: 1000px;
+}
+div{
+    background-color: blue;
+}
+aside{
+    background-color: brown;
+    height: 100px;
+    width: 200px;
+}
+.texto{
+    color: coral;
+    text-size-adjust: 12em;
+    
+}
