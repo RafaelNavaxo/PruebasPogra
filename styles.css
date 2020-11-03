@@ -1,4 +1,8 @@
-
+body{
+    display: block;
+    overflow: auto;
+    align-items: center;
+}
 header{
     height: 100px;
     width: 1000px;
