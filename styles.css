@@ -1,4 +1,4 @@
-H1 { color: #FF0000 ; }
+
 header{
     height: 100px;
     width: 1000px;
@@ -20,5 +20,19 @@ aside{
 .texto{
     color: coral;
     text-size-adjust: 12em;
-    
 }
+.articulo{
+    color: white;
+    text-size-adjust: 12em;
+}
+.ContenedorPrincipal{
+    background-color:pink;
+    border:10;     
+    align:center;
+}
+.ari{
+    background-color: yellow;
+    border:10;     
+    align:center;
+}
+
