@@ -1,0 +1,43 @@
+body{
+    /*Quitamos el borde que tiene el body*/
+    margin: 0;
+}
+
+nav{
+ /*Para darle un color de fondo al background del menu*/
+ background: #16A085;
+}
+
+/*Para que la clase menu se alinié al centro*/
+.menu {
+    text-align: center;
+    /*Para quitar el margen por defecto de la lista*/
+    margin: 0;
+}
+
+/*Para que los "li" adentro de la clase menú se pongan en horizontal*/
+.menu li{
+display: inline-block;
+}
+
+/*Para que a todos los enlaces dentro de la clase menu:*/
+.menu a{
+    /*La propiedad CSS padding establece el espacio de relleno requerido por todos los lados de un
+    elemento. El área de padding es el espacio entre el contenido del elemento y su borde (border).
+    No se permiten valores negativos.La propiedad padding es un atajo para evitar la asignación de
+    cada lado por separado (padding-top, padding-right, padding-bottom, padding-left).*/
+    padding: 45px;
+    /*Para darle un color al texto de los enlaces*/
+    color: white; 
+    /*La propiedad CSS text-decoration se usa para establecer el formato de texto a subrayado 
+    (underline) y suprarrayado (overline), tachado (line-through) o parpadeo (blink). 
+    El subrayado y el suprarrayado son posicionados bajo el texto, mientras la línea a 
+    través de éste se posiciona por encima. Como usamos el valor none el texto no tendrá subrayado*/
+    text-decoration: none;
+    /*Como nav no crece según los enlaces se usa display bloc para que la capa que los envuelve coga su tamaño*/
+    display: block;
+}
+
+.menu a:hover{
+    background: #1ABC9C;
+}
